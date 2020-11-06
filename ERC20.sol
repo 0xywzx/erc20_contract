@@ -139,8 +139,8 @@ contract ERC20 is Context, IERC20 {
 
 contract ERC20Contract is ERC20 {
 
-  string private _name = "ICHIBA"; // トークンの名前
-  string private _symbol = "ICB"; // トークンのシンボル ex. ビットコインはBTC
+  string private _name = "OO"; // トークンの名前
+  string private _symbol = "OO"; // トークンのシンボル ex. ビットコインはBTC
 
   uint value = 10000000e18; // トークンの発行量
 
