@@ -4,8 +4,8 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/contracts/token/E
 
 contract ERC20Contract is ERC20 {
 
-  string private _name = ""; // トークンの名前
-  string private _symbol = ""; // トークンのシンボル ex. ビットコインはBTC
+  string private _name = "OO"; // トークンの名前
+  string private _symbol = "OO"; // トークンのシンボル ex. ビットコインはBTC
 
   uint value = 10000000e18; // トークンの発行量
 
